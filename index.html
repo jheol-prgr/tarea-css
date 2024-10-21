@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenido a mi clase de Diseño Web</title>
+    <!-- Vincular el archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado principal con bienvenida -->
+    <header class="header">
+        <h1>Bienvenido a mi clase de Diseño Web</h1>
+        <p>Exploraremos juntos el fascinante mundo del diseño y desarrollo web.</p>
+    </header>
+
+    <!-- Sección con una imagen destacada y un mensaje -->
+    <section class="intro">
+        <img src="cursoweb.png" alt="Diseño Web" class="intro-img">
+        <h2>¿Qué aprenderás?</h2>
+        <p>Aprenderás a crear páginas web usando HTML, CSS y a darle vida con JavaScript.</p>
+    </section>
+
+    <!-- Sección sobre temas del curso, organizada en tarjetas -->
+    <section class="topics">
+        <h2>Temas del curso</h2>
+        <div class="cards-container">
+            <!-- Cada tarjeta es un tema del curso -->
+            <div class="card">
+                <h3>HTML Básico</h3>
+                <p>Comenzaremos con la estructura básica de una página web utilizando HTML.</p>
+            </div>
+            <div class="card">
+                <h3>CSS Avanzado</h3>
+                <p>Aprenderás a diseñar tus páginas con estilo y adaptarlas a distintos dispositivos.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Le daremos interactividad a nuestras páginas con scripts dinámicos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto con un formulario -->
+    <section class="contact">
+        <h2>Contáctame</h2>
+        <p>Si tienes alguna pregunta o comentario, no dudes en escribirme.</p>
+        <!-- Formulario básico -->
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página simple -->
+    <footer class="footer">
+        <p>&copy; 2024 Clase de Diseño Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
